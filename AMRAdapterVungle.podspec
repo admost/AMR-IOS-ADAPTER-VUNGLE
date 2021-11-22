@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterVungle'
-  s.version          = '6.10.3.1'
+  s.version          = '6.10.4.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.vendored_libraries = 'AMRAdapterVungle/Libs/libAMRAdapterVungle.a'
   s.dependency 'AMRSDK', '~> 1.4.81'
-  s.dependency 'VungleSDK-iOS', '6.10.3'
+  s.dependency 'VungleSDK-iOS', '6.10.4'
 end
