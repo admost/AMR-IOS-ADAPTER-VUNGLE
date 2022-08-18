@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterVungle-Beta'
-  s.version          = '6.11.0.0'
+  s.version          = '6.12.0.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK-Beta', '~> 1.5.15'
-  s.dependency 'VungleSDK-iOS', '6.11.0'
+  s.dependency 'VungleSDK-iOS', '6.12.0'
 end
