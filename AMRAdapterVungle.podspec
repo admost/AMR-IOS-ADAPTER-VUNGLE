@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterVungle'
-  s.version          = '6.12.1.0'
+  s.version          = '6.12.2.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
   s.ios.deployment_target = '10.0'
+  s.swift_versions = ['5']
   s.vendored_frameworks = 'AMRAdapterVungle/Libs/AMRAdapterVungle.xcframework'
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -lc++',
@@ -25,5 +26,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.16'
-  s.dependency 'VungleSDK-iOS', '6.12.1'
+  s.dependency 'VungleSDK-iOS', '6.12.2'
 end
