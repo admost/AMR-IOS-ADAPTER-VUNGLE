@@ -6,6 +6,7 @@ VungleSDK-iOS [changelog](https://support.vungle.com/hc/en-us/articles/360002925
 ## [7.0.0.0] - 2023-04-24
 ### Updated
 - Offical release for VungleAds 7.0.0
+- Banner support added.
 
 ## [6.12.3.0] - 2023-03-14
 ### Updated

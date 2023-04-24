@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.34'
-  s.dependency 'VungleSDK-iOS', '7.0.0'
+  s.dependency 'VungleAds', '7.0.0'
 end
