@@ -3,6 +3,10 @@
 Changelog for AMRAdapterVungle. 
 VungleSDK-iOS [changelog](https://support.vungle.com/hc/en-us/articles/360002925791-Get-Started-with-Vungle-iOS-SDK-v-6#GDPRRecommendedImplementationInstructions)
 
+## [7.2.2.0] - 2023-02-06
+### Updated
+- Offical release for VungleAds 7.2.2
+
 ## [7.2.1.0] - 2023-01-08
 ### Updated
 - Offical release for VungleAds 7.2.1
