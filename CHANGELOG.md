@@ -3,6 +3,10 @@
 Changelog for AMRAdapterVungle. 
 VungleSDK-iOS [changelog](https://support.vungle.com/hc/en-us/articles/360002925791-Get-Started-with-Vungle-iOS-SDK-v-6#GDPRRecommendedImplementationInstructions)
 
+## [7.3.0.0] - 2024-04-03
+### Updated
+- This pod depreciated, please use AMRAdapterLiftoff.
+
 ## [7.2.2.0] - 2023-02-06
 ### Updated
 - Min iOS version 12.0+
